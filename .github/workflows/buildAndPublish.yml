@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: github-actions/lab1${{ github.sha }}
+          tags: agustinapecuch/github-actions:latest
